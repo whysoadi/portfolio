@@ -1,4 +1,4 @@
-import React from "react";
+import React from "react"; 
 import Image from "next/image";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { BsFillPersonLinesFill } from "react-icons/bs";
@@ -11,7 +11,7 @@ const Contact = () => {
   return (
     <div id='contact' className="w-full lg:h-screen">
       <div className="w-full mx-auto pb-8 pt-24 px-2 max-w-[1240px]">
-        <p className="w-full tracking-widest uppercase text-[#5651e5]">Contact</p>
+        <p className="w-full tracking-widest uppercase text-[5651e5]">Contact</p>
         <h2 className="py-4">Get In Touch</h2>
         <div className="grid lg:grid-cols-5 gap-8">
           <div className="col-span-3 lg:col-span-2 w-full h-full shadow-xl shadow-gray-400 rounded-xl p-4">
@@ -86,7 +86,7 @@ const Contact = () => {
         </div>
         
         <div className="flex justify-center py-12">
-          <Link href='/#home'  className="rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-110 ease-in duration-300">
+          <Link href='/home'  className="rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-110 ease-in duration-300">
             <HiOutlineChevronDoubleUp className='text-[#5651e5]' size={20} />
           </Link>
         </div>

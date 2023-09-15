@@ -32,24 +32,24 @@ const Navbar = () => {
   return (
     <div className={shadow? 'fixed w-full h-20 shadow-xl z-[100] bg-[#ecf0f3]' : 'fixed w-full  h-20 z-[100] '}>
       <div className='flex justify-between items-center w-full px-2 py-4 2xl:px-16'>
-        <Link href='/#home'>
+        <Link href='/home'>
         <Image src="/assets/ay1.png" alt='/' width="90" height='50' className='cursor-pointer' />
         </Link>
         <div>
       <ul className='hidden md:flex'>
-        <Link href="/#home">
+        <Link href="/home">
             <li className='ml-10 text:sm uppercase hover:border-b font-bold hover:scale-105 ease-in duration-150 hover:text-[#5651e5]'>Home</li>
         </Link>
-        <Link href="/#about">
+        <Link href="/about">
             <li className='ml-10 text:sm uppercase font-bold hover:border-b hover:scale-105 ease-in duration-150 hover:text-[#5651e5] '>About</li>
         </Link>
-        <Link href="/#skills">
-            <li className='ml-10 text:sm uppercase font-bold hover:border-b hover:scale-105 ease-in duration-150 hover:text-[#5651e5]'>Skills</li>
+        <Link href="/skills">
+            <li className='ml-10 text:sm uppercase font-bold hover:border-b hover:scale-105 ease-in duration-150 hover:text-[5651e5]'>Skills</li>
         </Link>
-        <Link href="/#projects">
-            <li className='ml-10 text:sm uppercase font-bold hover:border-b hover:scale-105 ease-in duration-150 hover:text-[#5651e5]'>Projects</li>
+        <Link href="/projects">
+            <li className='ml-10 text:sm uppercase font-bold hover:border-b hover:scale-105 ease-in duration-150 hover:text-[5651e5]'>Projects</li>
         </Link>
-        <Link href="/#contact">
+        <Link href="/contact">
             <li className='ml-10 text:sm uppercase font-bold hover:border-b hover:scale-105 ease-in duration-150 hover:text-[#5651e5]'>Contact</li>
         </Link>
       </ul>
@@ -74,19 +74,19 @@ const Navbar = () => {
           </div>
           <div className='py-4 flex flex-col'>
             <ul className='uppercase'>
-              <Link href='/#home'>
+              <Link href='/home'>
               <li className='py-4 text-sm  hover: ease-in duration-150 hover:text-[#5651e5]'>Home</li>
               </Link>
-              <Link href='/#about'>
+              <Link href='/about'>
               <li className='py-4 text-sm  hover: ease-in duration-150 hover:text-[#5651e5]'>About</li>
               </Link>
-              <Link href='/#skills'>
+              <Link href='/skills'>
               <li className='py-4 text-sm  hover:ease-in duration-150 hover:text-[#5651e5]'>Skills</li>
               </Link>
-              <Link href='/#projects'>
+              <Link href='/projects'>
               <li className='py-4 text-sm  hover: ease-in duration-150 hover:text-[#5651e5]'>Projects</li>
               </Link>
-              <Link href='/#contact'>
+              <Link href='/contact'>
               <li className='py-4 text-sm  hover: ease-in duration-150 hover:text-[#5651e5]'>Contact</li>
               </Link>
             </ul>
