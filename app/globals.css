@@ -28,7 +28,7 @@ html {
   }
   
   li {
-    @apply cursor-pointer
+    @apply cursor-pointer 
   }
 
   button {

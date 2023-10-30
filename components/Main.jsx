@@ -15,8 +15,8 @@ const main = () => {
           </div>
         <p className='uppercase text-sm tracking-widest text-gray-600 '>Let's build something together</p>
         <h2 className='py-2 text-gray-700 '>Hi, I'm <span className='text-[#5651e5]'>Aditya!</span></h2>
-        <h2 className='py-2 text-gray-700'> Front -End Web developer</h2>
-        <p className='text-gray-600 max-w-[70%] m-auto py-4'>I'am a front-end web developer specializing in building exceptional digital experiences including user interfaces. Currently, I'm focused  on building responsive front-end web applications while starting to hold my grip on back-end technologies.</p>
+        <h2 className='py-2 text-gray-700'> Web Developer & Designer</h2>
+        <p className='text-gray-600 max-w-[70%] m-auto py-4'>I'm an enthusiastic web developer specializing in building exceptional digital experiences including user interfaces. Currently, I'm focused  on building responsive front-end web applications while starting to hold my grip on back-end technologies.</p>
         <div className='flex items-center py-4 justify-between max-w-[330px] m-auto'>
            <Link href='https://www.linkedin.com/in/aditya-yadav-348052289/' className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300' target='_blank'>
             <FaLinkedin/>
@@ -27,9 +27,9 @@ const main = () => {
            <Link href='https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcRzBxqGCMSmgwBScTLzJVGnJtFzQNBFjZNpPpgPXkZRcBTJHvFNFZDDWnRVjmdzZgKmKtFDx' className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300' target='_blank'>
            <AiOutlineMail/>
            </Link>
-           <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
+           <Link href="https://drive.google.com/file/d/1ZPJpCtf5LDED_lpUAwZnmfUb8oREvQi0/view?usp=drive_link" download className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300' target='_blank'>
            <BsFillPersonLinesFill/>
-           </div>
+           </Link>
         </div>
         </div>
       </div>

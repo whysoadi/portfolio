@@ -31,25 +31,28 @@ const Navbar = () => {
 
   return (
     <div className={shadow? 'fixed w-full h-20 shadow-xl z-[100] bg-[#ecf0f3]' : 'fixed w-full  h-20 z-[100] '}>
-      <div className='flex justify-between items-center w-full px-2 py-4 2xl:px-16'>
-        <Link href='/home'>
+      <div className='flex justify-between items-center w-full px-1 py-4 2xl:px-8'>
+        <Link href='/#home'>
         <Image src="/assets/ay1.png" alt='/' width="90" height='50' className='cursor-pointer' />
         </Link>
         <div>
       <ul className='hidden md:flex'>
-        <Link href="/home">
+        <Link href="/#home">
             <li className='ml-10 text:sm uppercase hover:border-b font-bold hover:scale-105 ease-in duration-150 hover:text-[#5651e5]'>Home</li>
         </Link>
-        <Link href="/about">
+        <Link href="/#about">
             <li className='ml-10 text:sm uppercase font-bold hover:border-b hover:scale-105 ease-in duration-150 hover:text-[#5651e5] '>About</li>
         </Link>
-        <Link href="/skills">
-            <li className='ml-10 text:sm uppercase font-bold hover:border-b hover:scale-105 ease-in duration-150 hover:text-[5651e5]'>Skills</li>
+        <Link href="/#experience">
+            <li className='ml-10 text:sm uppercase font-bold hover:border-b hover:scale-105 ease-in duration-150 hover:text-[#5651e5] '>Exp.</li>
         </Link>
-        <Link href="/projects">
-            <li className='ml-10 text:sm uppercase font-bold hover:border-b hover:scale-105 ease-in duration-150 hover:text-[5651e5]'>Projects</li>
+        <Link href="/#skills">
+            <li className='ml-10 text:sm uppercase font-bold hover:border-b hover:scale-105 ease-in duration-150 hover:text-[#5651e5]'>Skills</li>
         </Link>
-        <Link href="/contact">
+        <Link href="/#projects">
+            <li className='ml-10 text:sm uppercase font-bold hover:border-b hover:scale-105 ease-in duration-150 hover:text-[#5651e5]'>Projects</li>
+        </Link>
+        <Link href="/#contact">
             <li className='ml-10 text:sm uppercase font-bold hover:border-b hover:scale-105 ease-in duration-150 hover:text-[#5651e5]'>Contact</li>
         </Link>
       </ul>
@@ -59,7 +62,7 @@ const Navbar = () => {
       </div>
       </div>
       <div className={nav? 'fixed left-0 top-0 w-full h-screen bg-black/70':" "}>
-         <div className={nav? 'fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-[#ecf0f3] p-10 ease-in duration-500':
+         <div className={nav? 'fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[30%] h-screen bg-[#ecf0f3] p-10 ease-in duration-500':
         'fixed left-[-100%] top-0  p-10 ease-in duration-500' }>
           <div>
             <div className='flex w-full items-center justify-between'>
@@ -74,19 +77,22 @@ const Navbar = () => {
           </div>
           <div className='py-4 flex flex-col'>
             <ul className='uppercase'>
-              <Link href='/home'>
+              <Link href='/#home'>
               <li className='py-4 text-sm  hover: ease-in duration-150 hover:text-[#5651e5]'>Home</li>
               </Link>
-              <Link href='/about'>
+              <Link href='/#about'>
               <li className='py-4 text-sm  hover: ease-in duration-150 hover:text-[#5651e5]'>About</li>
               </Link>
-              <Link href='/skills'>
+              <Link href='/#experience'>
+              <li className='py-4 text-sm  hover:ease-in duration-150 hover:text-[#5651e5]'>experience</li>
+              </Link>
+              <Link href='/#skills'>
               <li className='py-4 text-sm  hover:ease-in duration-150 hover:text-[#5651e5]'>Skills</li>
               </Link>
-              <Link href='/projects'>
+              <Link href='/#projects'>
               <li className='py-4 text-sm  hover: ease-in duration-150 hover:text-[#5651e5]'>Projects</li>
               </Link>
-              <Link href='/contact'>
+              <Link href='/#contact'>
               <li className='py-4 text-sm  hover: ease-in duration-150 hover:text-[#5651e5]'>Contact</li>
               </Link>
             </ul>
@@ -97,15 +103,15 @@ const Navbar = () => {
               <Link href='https://www.linkedin.com/in/aditya-yadav-348052289/' className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
                 <FaLinkedinIn/>
               </Link>
-              <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
+              <Link href='https://github.com/whysoadi' className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
                 <FaGithub/>
-              </div>
-              <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
+              </Link>
+              <Link href='https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcRzBxqGCMSmgwBScTLzJVGnJtFzQNBFjZNpPpgPXkZRcBTJHvFNFZDDWnRVjmdzZgKmKtFDx' className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
                 <AiOutlineMail/>
-              </div>
-              <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
+              </Link>
+              <Link href='https://drive.google.com/file/d/1ZPJpCtf5LDED_lpUAwZnmfUb8oREvQi0/view?usp=drive_link' className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
                 <BsFillPersonLinesFill/>
-              </div>
+              </Link>
              </div>
           </div>
          </div>

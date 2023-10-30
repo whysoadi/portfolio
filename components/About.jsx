@@ -11,7 +11,7 @@ const About = () => {
         <h2 className='py-4'>Who I Am</h2>
         <p className='py-2 text-gray-600'>I am a passionate and skilled web developer with a strong foundation in React.js and Node.js. With a deep understanding of front-end and back-end technologies, I thrive in creating dynamic and user-friendly web applications. My journey into the world of web development has also led me to explore and delve into the realms of UX/UI design, allowing me to create seamless and visually appealing user experiences.</p>
         <p className='py-2 text-gray-600'>My dedication to crafting efficient and responsive web solutions is matched only by my commitment to staying up-to-date with the latest industry trends and best practices. As a proactive learner, I continuously seek to expand my skill set and adapt to the ever-evolving landscape of web development.</p>
-       <Link href='/projects'className='py-2 cursor-pointer  text-[#5651e5] underline hover:ease-in duration-300'>checkout out my latest projects
+       <Link href='/#projects'className='py-2 cursor-pointer  text-[#5651e5] underline hover:ease-in duration-300'>checkout out my latest projects
        </Link>
         </div>
         <div className='w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl p-4 items-center justify-center flex hover:scale-105 ease-in duration-300'>
