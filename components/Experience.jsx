@@ -5,7 +5,7 @@ import {HiExternalLink} from 'react-icons/hi'
 
 const Experience = () => {
   return (
-    <div id='experience' className='w-full h-full p-2 py-24 pb-20 items-center'>
+    <div id='experience' className='w-full h-full p-2 py-20 pb-20 items-center'>
         <div className='max-w-[1240px] m-auto '>
         <p className='uppercase tracking-widest text-xl text-[#5651e5]'>Experience</p>
         <h2 className='py-4'>Where I've Worked</h2>
