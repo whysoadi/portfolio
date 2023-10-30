@@ -29,8 +29,8 @@ to retrieve and display dynamic data from the server.</li>
            </div>
         </div>
         <div className='p-6 mt-4 shadow-xl rounded-xl hover:scale-105  duration-200'>
-        <div className='grid grid-cols-3 gap-4'>
-      <div className='col-span-2'>
+        <div className='grid md:grid-cols-3 gap-4'>
+      <div className='md:col-span-2'>
      <div className='text-xl font-bold'>Graphic Design Intern</div>
      <p className='text-[#5651e5] flex items-center py-1'>Patralok Media Network <Link href="https://www.patralok.com/" target='_blank' className='px-1'><HiExternalLink /></Link></p>
     <ul className='px-6 py-1'>
@@ -49,8 +49,8 @@ to retrieve and display dynamic data from the server.</li>
            </div>
         </div>
         <div className='w-full p-6 mt-2 shadow-xl rounded-xl hover:scale-105  duration-200'>
-           <div className='grid grid-cols-3 gap-4'>
-      <div className='col-span-2'>
+           <div className='grid md:grid-cols-3 gap-4'>
+      <div className='md:col-span-2'>
      <div className='text-xl font-bold'>Graphic Design Intern</div>
      <p className='text-[#5651e5] flex items-center py-1'>Techtitude Tribe Services Pvt. Ltd.<Link href="https://techtitudetribe.co.in/" target='_blank' className='px-1'><HiExternalLink /></Link></p>
     <ul className='px-6 py-1'>
