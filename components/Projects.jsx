@@ -15,7 +15,7 @@ const Projects = () => {
         </p>
         <h2 className="py-4">What I Have Built</h2>
         <div className="grid md:grid-cols-2 gap-8">
-          <ProjectItem title="Crypto coin" backgroundImg={cryptocoin}  tech={"React.js"} Url="https://64f980d716177c49752545fa--ubiquitous-cuchufli-d45539.netlify.app/" />
+          <ProjectItem title="Crypto coin" backgroundImg={cryptocoin}  tech={"React.js"} Url="https://ubiquitous-cuchufli-d45539.netlify.app/" />
           <ProjectItem title="Netflix2.0" backgroundImg={netflix} tech={"React.js"} Url="https://netflix20-98131.firebaseapp.com/" />
           <ProjectItem title="Opera" backgroundImg={opera} tech="MERN stack app" Url="https://heartfelt-cassata-4efec5.netlify.app"/>
           {/* <ProjectItem title="Crypto coin" backgroundImg={cryptocoin} Url="/" /> */}
