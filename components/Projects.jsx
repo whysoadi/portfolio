@@ -3,6 +3,7 @@ import Image from "next/image";
 import cryptocoin from "../public/assets/projects/cryptocoin.png";
 import netflix from "../public/assets/projects/netflix.png";
 import opera from "../public/assets/projects/opera.png";
+import valo from "../public/assets/projects/valo.png";
 import Link from "next/link";
 import ProjectItem from "./ProjectItem";
 
@@ -18,6 +19,7 @@ const Projects = () => {
           <ProjectItem title="Crypto coin" backgroundImg={cryptocoin}  tech={"React.js"} Url="https://64f980d716177c49752545fa--ubiquitous-cuchufli-d45539.netlify.app/" />
           <ProjectItem title="Netflix2.0" backgroundImg={netflix} tech={"React.js"} Url="https://netflix20-98131.firebaseapp.com/" />
           <ProjectItem title="Opera" backgroundImg={opera} tech="MERN stack app" Url="https://heartfelt-cassata-4efec5.netlify.app"/>
+          <ProjectItem title="Valo.Tracker" backgroundImg={valo} tech="React/Redux" Url="https://659709c8891b402b2db57ae4--whimsical-salamander-ad5f04.netlify.app/"/>
           {/* <ProjectItem title="Crypto coin" backgroundImg={cryptocoin} Url="/" /> */}
         </div>
       </div>
