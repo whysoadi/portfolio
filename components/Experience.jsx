@@ -12,8 +12,26 @@ const Experience = () => {
         <div className='w-full px-6 py-8 shadow-xl rounded-xl hover:scale-105  duration-200'>
            <div className='grid md:grid-cols-3 gap-4'>
       <div className='md:col-span-2'>
+     <div className='text-xl font-bold'>ReactJS Intern</div>
+     <p className='text-[#5651e5] flex items-center py-1'>Gurucool<Link href="https://www.gurucool.life/" target='_blank' className='px-1'><HiExternalLink /></Link></p>
+    <ul className='px-6 py-1'>
+        <li className='list-disc py-2'>Developing interactive & complex UI, integrating logics & functionalities using <span className='font-bold'>Next.js</span> and <span className='font-bold'>Typescript</span>.</li>
+        <li className='list-disc'> Conquering bugs, testing website, learning new <span className='font-bold'>Git</span> commands and working on <span className='font-bold'>Github</span>.</li>
+    </ul>
+      </div>
+      <div className='flex justify-center items-center m-auto'>
+      <Image src='/assets/next.png' width='64' height='64' alt='/'/>
+      <Image src='/assets/typescript.png' width='64' height='64' alt='/'/>
+      <Image src='/assets/git.png' width='64' height='64' alt='/'/>
+      <Image src='/assets/github.png' width='64' height='64' alt='/'/>
+      </div>
+           </div>
+        </div>
+        <div className='w-full px-6 py-8 shadow-xl rounded-xl hover:scale-105  duration-200'>
+           <div className='grid md:grid-cols-3 gap-4'>
+      <div className='md:col-span-2'>
      <div className='text-xl font-bold'>React Web Developer Intern</div>
-     <p className='text-[#5651e5] flex items-center py-1'>Aeidth Technologies <Link href="https://www.aeidth.com/home" target='_blank' className='px-1'><HiExternalLink /></Link></p>
+     <p className='text-[#5651e5] flex items-center py-1'>Aeidth Technologies <Link href="https://www.aeidth.com" target='_blank' className='px-1'><HiExternalLink /></Link></p>
     <ul className='px-6 py-1'>
         <li className='list-disc py-2'> Designed an interactive and responsive UI using <span className='font-bold'>Figma</span>.</li>
         <li className='list-disc'>  Built the web application using <span className='font-bold'>React.js</span>, for responsive styling <span className='font-bold'>Tailwind CSS</span> and integrating the Fetch API
@@ -21,10 +39,10 @@ to retrieve and display dynamic data from the server.</li>
     </ul>
       </div>
       <div className='flex justify-center items-center m-auto'>
-      <Image src='/assets/html.png' width='64' height='64' alt='/'/>
       <Image src='/assets/tailwind.png' width='64' height='64' alt='/'/>
       <Image src='/assets/figma.png' width='64' height='64' alt='/'/>
       <Image src='/assets/react.png' width='64' height='64' alt='/'/>
+      <Image src='/assets/javascript.png' width='64' height='64' alt='/'/>
       </div>
            </div>
         </div>
